@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal de Arquivos - SESI</title>
+    <style>
+        :root {
+            --sesi-red: #E30613;
+            --sesi-dark: #2D2D2D;
+            --bg-light: #F4F4F9;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: var(--bg-light);
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            color: var(--sesi-dark);
+        }
+
+        .card {
+            background: white;
+            padding: 40px 30px;
+            border-radius: 12px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+            text-align: center;
+            max-width: 320px;
+            width: 90%;
+            border-top: 6px solid var(--sesi-red);
+        }
+
+        .icon {
+            margin-bottom: 25px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .icon img {
+            max-width: 140px; /* Tamanho ideal para a logo no card */
+            height: auto;
+        }
+
+        h1 {
+            font-size: 1.3rem;
+            margin: 0 0 10px 0;
+            color: var(--sesi-dark);
+        }
+
+        p {
+            font-size: 0.9rem;
+            color: #666;
+            line-height: 1.5;
+            margin-bottom: 30px;
+        }
+
+        .btn-sesi {
+            display: block;
+            background-color: var(--sesi-red);
+            color: white;
+            text-decoration: none;
+            padding: 15px;
+            border-radius: 8px;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            transition: background 0.3s, transform 0.2s;
+        }
+
+        .btn-sesi:hover { background-color: #b30510; }
+        .btn-sesi:active { transform: scale(0.98); }
+
+        .footer-logo {
+            margin-top: 25px;
+            font-size: 0.7rem;
+            font-weight: bold;
+            color: #ccc;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <div class="icon">
+            <img src="https://logodownload.org/wp-content/uploads/2016/10/sesi-logo-2.png" alt="Logo SESI">
+        </div>
+        
+        <h1>Proposta Pedagógica - 2026</h1>
+        <strong>
+            <p>Clique aqui para acessar a Proposta Pedagógica do CE 342 – SESI Jardinópolis, referente ao ano de 2026.</p>
+        </strong>
+        
+        <a href="Proposta Pedagógica 2026 - CE 342- Publicável.pdf" class="btn-sesi" download>clique aqui</a>
+        <div class="footer-logo">SESI • EDUCAÇÃO</div>
+    </div>
+    
+</body>
+</html>
